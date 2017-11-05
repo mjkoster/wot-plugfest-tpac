@@ -11,13 +11,13 @@
     {
       "name": "Motion State",
       "@type": ["Property", "iot:MotionDetected"],
-      "outputdata":  {
+      "outputData":  {
         "type": "array",
         "observable": "true",
         "items": [
           {
             "type": "object",
-            "fields": [
+            "field": [
               {
                 "name": "n",
                 "value": "5700"
